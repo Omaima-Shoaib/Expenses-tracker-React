@@ -14,11 +14,12 @@ h1{
     @apply py-2
 }
 .inc-exp-container{
-    @apply bg-white flex justify-center shadow-sm
+    @apply bg-white flex flex-row shadow-sm 
     /* divide-x divide-solid  */
 }
 .plus-container{
-    @apply px-10 py-1 text-center
+    /* @apply px-10 py-1 text-center */
+    @apply w-full py-1 text-center
 }
 .new-transaction{
     @apply  py-2 
