@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import DeleteIcon from "@mui/icons-material/Delete";
 import { GlobalContext } from "../context/GlobalState";
 const Transaction = ({ trans }) => {
   const sign = trans.amount < 0 ? "-" : "+";
